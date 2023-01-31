@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+}
+#nav-bar{
+    height: 70px;
+}
+#log{
+    background-color: white;
+    padding: 5px 20px;
+    color:green;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.image3{
+    height: 370px;
+    object-position:0% 50%;
+}
+.slider-text{
+    font-size: 30px;
+    /* width: 30%;
+    margin: 0px 35%;
+    text-align: center; */
+}
+.sub-head{
+    font-size: 18px;
+}
+.sub-para{
+    font-size: 14px;
+    color:black;
+}
+.merge-3{
+    background-color: aliceblue;
+}
+.submerge-3{
+    background-color: bisque;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.submerge-3 h6{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.submerge-3 p{
+    margin-bottom: 3px;
+}
+.submerge-3 button{
+    background-color: black;
+    color:white;
+    border-radius: 7px;
+    padding: 7px 15px;
+    margin: 10px 15px;
+}
+/* .paji li{
+    float: right;
+}
+.paji li h6{
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+}
+.paji li h6{
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+}
+.paji li img{
+    width: 300px;
+    height: 100px;
+} */
