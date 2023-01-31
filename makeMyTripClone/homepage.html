@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Make my trip copy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light" id="nav-bar">
+    <div class="container-fluid">
+      <a class="navbar-brand offset-1" href="#">
+        <img src="./images/mkmytrip-large-devices.png" class="w-150" style="height:60px" alt="logo">
+        <!-- <img src="./images/mkmytrip-small-devices.png" class="invisible" alt="logo"> -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">flights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">hotels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">rental cars</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Support
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Cancellation protection</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Airlines Information</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">My Bookings</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Mytrip
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">About us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Travel conditions</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Information on cookies</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a class="nav-link text-success " id="log" href="#">My Bookings</a>
+      </div>
+    </div>
+  </nav>
+
+<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./images/cascade-boat-clean-china-natural-rural.jpg" class="d-block w-100 image3" alt="logo">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slider-text">Save upto 40% on your cheap flight to any destination</h5>
+        <!-- <p>Some representative placeholder content for the first slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/footpath-beautiful-arch-flowers-plants.jpg" class="d-block w-100 image3" alt="logo">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slider-text">Save upto 40% on your cheap flight to any destination</h5>
+        <!-- <p>Some representative placeholder content for the second slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/landscape-shot-beautiful-cholatse-mountains-body-water-khumbu-nepal.jpg" class="d-block w-100 image3" alt="logo">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slider-text">Save upto 40% on your cheap flight to any destination</h5>
+        <!-- <p>Some representative placeholder content for the third slide.</p> -->
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="row pt-4 ml-5 merge-3">
+  <div class="col-3 offset-1">
+    <h4>
+      Flexible booking
+    </h4 class="sub-head">
+    <p class="sub-para">
+      Many airlines are relaxing their rules on ticket changes. They are saying it’s OK if you are not totally sure; book now, and know that you can change your mind later.
+    </p>
+    <a href="">Read more ...</a>
+  </div>
+    <div class="col-3">
+    <h4 class="sub-head">
+      COVID-19 Information
+    </h4>
+    <p class="sub-para">
+      It’s safe to travel again, as long as you take certain precautions. Here’s what the airlines are doing to ensure your health and safety.
+    </p>
+    <a href="">Read more ...</a>
+  </div>
+    <div class="col-3">
+    <h4 class="sub-head">
+      Refunds
+    </h4>
+    <p class="sub-para">
+      How does the refund process work?
+    </p>
+    <a href="">Read more ...</a>
+  </div>
+  <div class="col-10 offset-1 ml-5 mt-3 p-4 submerge-3">
+    <h6>The Mytrip App - the world is only one tap away!</h6>
+    <p>
+      Access your flight reservations, and a lot more:
+    </p>
+    <ul>
+      <li>
+        FREE automatic check-in
+      </li>
+      <li>
+        Some of the BEST deals on flights, no matter your destination
+      </li>
+      <li>
+        Travel details gathered in one single, easy-to-access place
+      </li>
+    </ul>
+    <button class="butn">Download</button>
+    <button class="butn">Download</button>
+  </div>
+  <div class="row">
+    <!-- <div class="col-8 offset-2">
+      <ul class="paji">
+        <li>
+          <img src="" alt="logo">
+          <h6>
+            Customer Support
+          </h6>
+          <p>Mytrip is Support on demand from anywhere in the world, anytime, via email or phone.</p>
+        </li>
+        <li>
+          <img src="" alt="logo">
+          <h6>We're adventurers like you</h6>
+          <p>Every year 14M  people travel with us. Join the family. Your next adventure is just around the corner.</p>
+        </li>
+        <li>
+          <img src="" alt="logo">
+          <h6>
+            Travel more for less
+          </h6>
+          <p>
+            With 650 airlines partners, we can take you everywhere you want at the best price.
+          </p>
+        </li>
+      </ul>
+    </div> -->
+  </div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
